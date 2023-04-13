@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "testpypisk"
+dynamic = ["version"]
+authors = [
+    {name = "X", email = "x@example.com"},
+]
+description = "Ignore"
+readme = "README.md"
+requires-python = ">=3.7"
+keywords = ["trash", "test"]
+license = {text = "MIT"}
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Framework :: Django",
+    "License :: OSI Approved :: MIT License",
+    "Intended Audience :: Developers",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Environment :: Web Environment",
+    "Topic :: Software Development",
+]
+dependencies = []
+
+[tool.setuptools.dynamic]
+version = {attr = "testpypisk.__version__"}
+
+[tool.setuptools]
+packages = ["testpypisk"]
