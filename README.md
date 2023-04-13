@@ -33,14 +33,14 @@ $ pip install --index-url https://test.pypi.org/simple/ testpypisk
 Successfully installed testpypisk-1.0.1
 ```
 
-## Latest pre
+### Latest pre
 
 ```
 $ pip install --index-url https://test.pypi.org/simple/ --pre testpypisk
 Successfully installed testpypisk-9999.0.0.dev10
 ```
 
-## Stable upgrade
+### Stable upgrade
 
 ```
 $ pip install --index-url https://test.pypi.org/simple/ testpypisk==1.0.0
@@ -50,7 +50,7 @@ $ pip install --index-url https://test.pypi.org/simple/ --upgrade testpypisk
 Successfully installed testpypisk-1.0.1
 ```
 
-## Pre upgrade
+### Pre upgrade
 
 ```
 $ pip install --index-url https://test.pypi.org/simple/ testpypisk==1.0.0.dev1
